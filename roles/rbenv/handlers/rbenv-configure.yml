@@ -1,0 +1,7 @@
+- name: Sets global ruby version
+  shell: cd; bash -lc "rbenv global {{ ruby_default }}"
+  listen: Installed ruby
+
+- name: Install bundler gem
+  shell: cd; bash -lc "gem install bundler"
+  listen: Installed ruby

@@ -1,0 +1,4 @@
+# Installing required ruby versions
+- include: ruby-install.yml version={{ ruby_version }}
+  become: yes
+  become_user: "{{ rbenv_user }}"
