@@ -1,3 +1,5 @@
+# Install Ansible
+`sudo apt install ansible`
 # Ansible: Ruby on Rails Environment
 Use this ansible playbook to setup a fresh development environment with the following components:
 
