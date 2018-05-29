@@ -1,5 +1,5 @@
-# Ansible: Ruby on Rails Server
-Use this ansible playbook to setup a fresh server with the following components:
+# Ansible: Ruby on Rails Environment
+Use this ansible playbook to setup a fresh development environment with the following components:
 
 * Rbenv
 * Ruby
@@ -9,7 +9,7 @@ Use this ansible playbook to setup a fresh server with the following components:
 * Tools (tmux, vim, htop, git, wget, curl etc.)
 
 ## Prerequisites & Config
-1. Replace <your_user> in ```site.yml```.
+1. Replace `<your_user>` in ```site.yml```.
 2. Modify the contents ```group_vars/all```.
 
 
