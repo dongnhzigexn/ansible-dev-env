@@ -3,7 +3,7 @@
 ---
 - name:          Install Rails Server
   hosts:         all
-  remote_user:   vagrant
+  remote_user:   <your_user>
   become:        yes
   become_method: sudo
   gather_facts:  no # don't gather facts because /usr/bin/python isn't set
@@ -19,6 +19,3 @@
       - mysql
       - rbenv
       - ruby
-      # - redis
-      # - solr
-      # - memcached
